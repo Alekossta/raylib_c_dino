@@ -16,3 +16,6 @@ $(TARGET): $(SRC)
 # Clean rule
 clean:
 	rm -f $(TARGET)
+
+run: all
+	./main
